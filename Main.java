@@ -8,8 +8,8 @@ class Main {
                 "1. Сравнить" + "\n" +
                 "2. Округлить" + "\n" +
                 "3. Отбросить дробную часть");
-
         number = scanner.nextInt();
+
         System.out.println("Введите первое число");
         double number1 = scanner.nextDouble();
 
@@ -39,8 +39,7 @@ class Main {
             return "Числа равны";
         } else if (diff < 0) {
             return "Первое число меньше второго";
-        } else if (diff > 0) ;
-        {
+        } else if (diff > 0) {
             return "Первое число больше второго";
         }
     }
